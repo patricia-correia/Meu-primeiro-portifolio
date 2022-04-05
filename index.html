@@ -4,88 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Meu Primeiro Portifólio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <style>
-        body{
-            background-color: #B3B5BB;
-            font-family: 'Josefin Sans', sans-serif;
-        }
-        #meu_nome{
-            text-align: center;
-            color: #C5D9E2;
-        }
-        #perfil{
-            width: 200px;
-            margin-left: 43% ;
-            border-radius: 100%;
-        }
-        h2{
-            color: #CDFFF9;
-        }
-        .minhas_informações{
-            text-align: center;
-        }
-        p{
-            text-align: center;
-            color: #C5D9E2;
-            font-size: 1.5em;
-        }
-        a{
-            text-decoration: none;
-            padding:30px 50px;
-            color: #CDFFF9;
-        }
-        .minhas_habilidades{
-            margin-left: 50px;
-            
-        }
-        ul.minhas_habilidades li{
-            color: #A5FFD6;
-        }
-        strong{
-            color: #C5D9E2;
-        }
-        
-    </style>
+    <style></style>
 </head>
 <body>
+    <header>
+        <img id="perfil" src="Imagens/20220318_142427.jpg" alt="minha foto de perfil" >
     
-    <img id="perfil" src="Imagens/20220318_142427.jpg" alt="minha foto de perfil" >
+        <h1 id="meu_nome">PATRICIA NUNES CORREIA </h1>
+
+        <h2 class="minhas_informações">22 anos</h2>
     
-    <h1 id="meu_nome">PATRICIA NUNES CORREIA </h1>
-
-    <h2 class="minhas_informações">22 anos</h2>
+        <h2 class="minhas_informações">Brasileira / São Luís - MA</h2>
     
-    <h2 class="minhas_informações">Brasileira / São Luís - MA</h2>
-    
-    <p>
-        <em>Estudante de Desenvolvimento Web na Trybe.</em>
-    </p>
-
-    <h2 class="minhas_habilidades">Habilidades</h2>
-    <ul class="minhas_habilidades">
-        <li>Unix</li>
-        <li>Bash</li>
-        <li><strong>Git</strong></li>
-        <li>Github</li>
-        <li>Autoliderança</li>
-        <li><strong>Autogestão</strong></li>
-
-
-    </ul>
+        <p>
+            <em>Estudante de Desenvolvimento Web na Trybe.</em>
+        </p>
+    </header>
+    <section>
+            <h2  class="minhasHabilidades_hardskills">Habilidades em Hardskills</h2>
+                <ul class="minhasHabilidades_hardskills">
+                    <li>Unix</li>
+                    <li>Bash</li>
+                    <li><strong>Git</strong></li>
+                    <li>Github</li>
+                </ul>
         
-    <a href="#perfil" >Foto de perfil</a>
-    
-    <a href="https://www.w3schools.com/css/css_font_websafe.asp">W3 Schools dicas de estudo</a>
-    <br>
-    <br>
-    <ul>
-        <a href="#meu_nome"><li >Quem Sou</li></a>
-        <a href="#minhas_habilidades"><li>Habilidades</li></a>
-    </ul>
-
+      
+            <h2 class="minhasHabilidades_softskills">Habilidades de Softskills
+            </h2>
+                <ul class="minhasHabilidades_softskills">
+                    <li>Autoliderança</li>
+                    <li><strong>Autogestão</strong></li>
+                </ul>
+        </section>   
+        <div class="link-externo">
+            <a href="https://www.w3schools.com/css/css_font_websafe.asp">W3 Schools dicas de estudo</a>
+        
+        </div>
+        <footer class="links-internos">
+            <ul>
+                <li>
+                    <a href="#perfil" >Foto de perfil</a>
+                </li>
+                <li >
+                    <a href="#meu_nome">Quem Sou</a>
+                </li>
+                <li>
+                    <a href="#minhas_habilidades">Habilidades</a>
+                </li>
+            </ul>
+        </footer>
 </body>
 </html>

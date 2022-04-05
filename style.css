@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: #B3B5BB;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#meu_nome{
+    margin-top: 10px;
+    text-align: center;
+    color: #C5D9E2;
+}
+img#perfil{
+    height: 210px;
+    width: 200px;
+    margin-top:20px ;
+    margin-left: 43% ;
+    border-radius: 50%;
+    box-shadow: 3px 1px 1px rgba(53, 52, 52, 0.438);
+}
+h2{
+    margin: 5px;
+    color: #CDFFF9;
+}
+.minhas_informações{
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: #C5D9E2;
+    font-size: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    color: #CDFFF9;
+}
+section h2{
+    margin-top:10px ;
+}
+
+ul.minhasHabilidades_hardskills li{
+    padding-left: 20px;
+    color: #A5FFD6;
+}
+
+ul.minhasHabilidades_softskills li{
+    padding-left: 20px;
+    color: #A5FFD6;
+}
+strong{
+    color: #C5D9E2;
+}
+.link-externo{
+    padding: 20px;
+}
+
+footer{
+    margin-top: 60px;
+    background: #a1a5ac;
+}
+footer li{
+    padding: 5px;
+}
